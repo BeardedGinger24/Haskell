@@ -1,0 +1,29 @@
+CS3035 - 2
+(Graded) Homework 3
+Description
+1. 2pts) Implement a data type called Student. 
+The student type has four fields, first name, last name, major, and age. 
+
+2. 2 pts) Implement a tree node type that has a student as one of its fields. The tree will be a binary search tree on the attribute age.
+
+3. 1 pt) Write a comma separated file in which each line (ended by new line character) contains a student, with its fields separated by commas
+
+4. Write a program that will:
+
+a. 5pts) Read the comma separated file (specified by a command line argument) and produce a list of students.
+
+b. 5pts) Construct a binary search tree using the tree nodes you created, according to the ages of students.
+
+c. 3pts) Write a function that will search through the tree to see if it 
+contains a student of age x. It returns true if there is, otherwise it 
+returns false.
+
+d. 4pts) Write a function that takes a string for last name uses depth-first 
+search to find if a student with that name is in the tree.
+
+How the program needs to work:
+
+A user can call the program and passing in a csv file, a function (either search-age or search-name) and a search value (a number or a last name).
+The program takes the file, creates a tree, searches it, and prints True or False.
+e.g.    ./hw3 students.csv search-age 12
+Do all except the csv file of students in a single Haskell program. Upload the Haskell file and the csv file here.

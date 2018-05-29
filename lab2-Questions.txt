@@ -1,0 +1,16 @@
+
+2pts) create two lists, one that takes all numbers from 1 to 30, and another that takes every 3 from 6 to 39. Put them into a variable
+
+2pts) Get the head and tail of one of the above lists.
+
+2pts) Transform the first list using a list comprehension to create a list of the numbers in it, squared.
+
+2pts) Generate a 2d matrix (list of tuples, two rows, each tuple being a column) of numbers that go from 1 to 50 in the first row, and 51 to 100 in the second.
+
+
+2pts) Create a list like the previous one, but filter out all tuples that don't have 2 odd numbers (take more than one step if you need to ).
+
+
+2pts) drop the first 10 elements from this list
+
+1pt) get 10 factorial without defining a new function, and don't do 10*9*8*7*6*5*4*3*2*1.

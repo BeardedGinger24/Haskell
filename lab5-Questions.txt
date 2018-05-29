@@ -1,0 +1,8 @@
+
+1) search alg. that searches through a list for Int n and returns the value in the list after n. If no value, or the list is empty, return -1.  Eg, findNext 5 [1,2,3,4,5,6] should return 6, while findNext 5 [0,10,20,30] returns -1
+
+2) Implement a search alg that searches through a list for Int n and returns the value in the list before n. If there is no value, or the list is empty, return -1.  Eg, findPrev 5 [1,2,3,4,5,6] shoud return 4...
+
+3) Create a function that sums all the digits of an Integer value
+
+4) Create your own maximum function
