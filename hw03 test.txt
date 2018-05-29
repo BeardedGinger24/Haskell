@@ -1,0 +1,4 @@
+let test = [Student {firstName="me",lastName="you",major="us",age=8}, Student {firstName="Daniel",lastName="Choi",major="CS",age=6}, Student {firstName="mark",lastName="sergent",major="Phil.",age=4},Student {firstName="mark",lastName="sergent",major="Phil.",age=1},Student{firstName="mark",lastName="sergent",major="Phil.",age=7},Student{firstName="mark",lastName="sergent",major="Phil.",age=3}, Student{firstName="mark",lastName="sergent",major="Phil.",age=5}]
+
+
+let insertTo = foldr treeInsert EmptyTree test
